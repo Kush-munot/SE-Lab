@@ -2,7 +2,7 @@
   "id": "a19ffc3c-20c8-407d-be3b-2c03729300ad",
   "version": "2.0",
   "name": "Automatic Attendance",
-  "url": "https://kmunlock.netlify.app/",
+  "url": "https://kush-munot.github.io/SE-Lab/",
   "tests": [{
     "id": "02bf5ce8-5d20-4d1e-92ed-1bf08b3b687b",
     "name": "Amazon textcase",
@@ -1889,6 +1889,167 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "661259ca-ddc1-4511-8c2f-3dc5a045ac06",
+    "name": "Final Test",
+    "commands": [{
+      "id": "dc488b68-aacf-411e-a33b-9bcf27e3c236",
+      "comment": "",
+      "command": "open",
+      "target": "https://kush-munot.github.io/SE-Lab/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e3bf01-155c-49bc-b59b-6bd2ccbeacda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2598245c-4699-4161-b0a9-e625a8ed2b65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(1) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(1) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div/h2/button", "xpath:idRelative"],
+        ["xpath=//h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ba98a1-8933-4c53-b248-e50d56c04946",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(2) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(2) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[2]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[2]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1e51ce-ac7c-4423-81c5-ea3ca1b303cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(2) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(2) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[2]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[2]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1357e892-2dc8-4b1e-98b0-9d38e7813595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(3) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(3) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[3]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[3]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de0a7b25-b952-440d-865c-b286e22a09be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(3) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(3) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[3]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[3]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07a5328a-0f8c-4222-a03b-ac154988b746",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(4) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(4) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[4]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[4]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96dc711e-1d36-407c-b01e-88aa5b02dc7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(4) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(4) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[4]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[4]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7130f0-09d9-4958-bc1b-c1aa6bdcdd61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(5) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(5) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[5]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[5]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95522e5-1fdc-4ea4-929c-81778454b119",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(5) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(5) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[5]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[5]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0601b9-1a76-450e-b9de-428ae354a343",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(6) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(6) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[6]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[6]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67407935-9761-4068-a9c4-6957ffa1ea69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(6) .accordion-button",
+      "targets": [
+        ["css=.accordion-item:nth-child(6) .accordion-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='accordionExample']/div[6]/h2/button", "xpath:idRelative"],
+        ["xpath=//div[6]/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practical #6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "4db4c8d1-a977-40f9-8a51-183ed28e9a42",
@@ -1898,6 +2059,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["https://rcoem.in/", "https://www.amazon.in/", "https://www.figma.com/file/yIjMP80gOZag36KZS3dR7k/Hospital-management-system?type=design&node-id=0%3A1&t=EqXLE7aSHrgoSOCG-1", "https://kush-munot.github.io/Calculator/", "https://kushmunot.netlify.app/", "https://collegewit.netlify.app/", "https://csb-87be7.netlify.app/", "https://kmunlock.netlify.app/"],
+  "urls": ["https://rcoem.in/", "https://www.amazon.in/", "https://www.figma.com/file/yIjMP80gOZag36KZS3dR7k/Hospital-management-system?type=design&node-id=0%3A1&t=EqXLE7aSHrgoSOCG-1", "https://kush-munot.github.io/Calculator/", "https://kushmunot.netlify.app/", "https://collegewit.netlify.app/", "https://csb-87be7.netlify.app/", "https://kmunlock.netlify.app/", "https://kush-munot.github.io/SE-Lab/"],
   "plugins": []
 }
